@@ -1170,7 +1170,7 @@ LPCTSTR __declspec(dllexport) DLPCheckUsername_Hard(LPCTSTR username)
 #if defined(SPECIAL_DLP_VERSION)
 //Some Bad USERNAME check
 	if (wcsstr(username, L"VgroupTeam") || //Random ModString [doompower]
-//		wcsstr(username, L"ED2000") || //GPL-Breaker
+		wcsstr(username, L"ED2000") || //Repack by www.ed2000.com,Bundled Software Of Third Party.
 		wcsstr(username, L"[CHN]X_jIQ") || //P2PSearcher, old version
 		wcsstr(username, L"[CHN]sf") || //P2PSearcher, new version
 		wcsstr(username, L"[CHN]__VRom") || //P2PSearcher, new version [dark]
@@ -1251,6 +1251,10 @@ LPCTSTR __declspec(dllexport) DLPCheckUsername_Soft(LPCTSTR username)
 		wcsstr(username, L"[CHN][VeryCD]QQ")))
 			return L"[SDC]VeryCD-Tag";
 #endif
+
+//Official eMule Default UserName
+	if (_tcsstr(username, _T("http://emule-project.net")))//Official eMule Default UserName
+			return _T("[OfficialeMule]Default UserName");
 
 	return NULL;
 }
