@@ -3,19 +3,80 @@ Latest version：44
 Update date：2011-04-16
 
 Strict DLP Chinese - SDC
-Latest version：44003 Update 1[Base on official v44]
-Update date：2014-02-08
+Latest version：44005 Update 1
+Update date：2017-02-23
+
 
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v44003 Update 1 Changelog：
+
+Strict DLP Chinese v44005 Changelog:
+
+* Add "eMule v5.6a" to blacklist in client version [冰靈曦曉]
+* Add "eMuleTorrent" to blacklist in ModString [冰靈曦曉]
+* Add All-VeryCD-Mod&Tag version
+* Remove Subversion/SVN support
+* Remove Windows XP/2003 support
+* Release Hash[SHA-3(256)]:
+  * x64
+    * All-VeryCD-Mod: 81531E088F8A9E93E169A745476EABC3499D29358B202825944DD8BD1908BB80
+    * VeryCD-Tag: 7F1BEE6CE715E35F8C09BE5E423DCD2BE5F4CCFA66872D0DEE4D64886BA2DB83
+    * Lite: 293074DBCAA32E5935C759937E30A67B18F47BB0EC354DFF889312D00D0B6687
+    * VeryCD-Default-NickNames: 534AA022EBEC6F7F15F14849BCA163372DFE39451A01A3435F0E83B63AA1300B
+    * VeryCD-EasyMule-Mod: 9DB4C4D3FFDC8BE7E983F567B63F22A8A04FD57A8326E4EE0E800E2723D7D20F
+  * x86
+    * All-VeryCD-Mod: EE70B1F89D2157AA643DA4596498FC1BE77479CEB4EAF4BFFA641AF37714AC36
+    * VeryCD-Tag: 7184621116A65C0490C5E71F48EEE751FD8B6755141B041F5E2557A4FF25C2F6
+    * Lite: 6D2EE98C4FFA2392A93A4B9BFA803B6A49C1E10D38DD5F0064CEC169ACEA8B4D
+    * VeryCD-Default-NickNames: CB4B04C3553A253462FD269CAA52F7DAA33727AD1C2A99AB8A7E8E55F61AEE73
+    * VeryCD-EasyMule-Mod: 8B9B1F3B0B226D033F98B8CEE05283576CA207B8ED635F1DA2E18E4B866E4717
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44004 Changelog:
+
+* Upgrade to Visual Studio 2015
+* Fix some bugs of memory using
+* Minimum support Windows Vista(x86/x64) at this and newer version
+* Release Hash[SHA-3(256)]:
+  * x64
+    * All-VeryCD-Mod: F4F406372DC5911AD58E6034F38AEB3CF88A48A9AA37983BF843EFC0422C3627
+    * Lite: 01EBFD4CDD6C044E5EF31DFAEB81CA97EA9D1D6F1182958A39C748173E1BA528
+    * VeryCD-Default-NickNames: 60934924AE4C2777F80DD0811F4F5DB154546D3FB3E1E3E98264CAE63FD1567E
+    * VeryCD-EasyMule-Mod: C22743311A3BE95E9A773013F1CD1A89534AE291EF2DB8902EB16E95CBC75A91
+  * x86
+    * All-VeryCD-Mod: 1DD0598AB04573A34115D2570B00B4E0FD2DE360BB7A7A88770FBEC789171F4B
+    * Lite: D773BC121E179B60742098A705DBAD27557008E8E460DCD55AA8FB1BACA25925
+    * VeryCD-Default-NickNames: 207C107985C7F0FB0BE14C5A4BDA8099C13EF7AD3FDDAE14EAF79BBB1F5376D9
+    * VeryCD-EasyMule-Mod: E600DB929E9A10ACDACDB96D24C7018CCBD5C33C9BACF4E4E84D72C218586EF0
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44003 Update 2 Changelog:
+
+* Compile using Visual Studio 2013
+* Convert source encoding from UTF-16 LE to UTF-8
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44003 Update 1 Changelog:
+
 * Fix bug of Xunlei Offline Download Server and Mobile Apps check in All-VeryCD-Mod version [pandaleo]
 * New return value with [SDC] Tag
 * Unicode in resource
 
+
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v44003 Changelog：
+
+Strict DLP Chinese v44003 Changelog:
+
 * The new check to eMule -LPE-
 * The new check to some QQ Xuanfeng client
 * The new check to MTVP2P(2013) [雁蝎]
@@ -34,14 +95,20 @@ Strict DLP Chinese v44003 Changelog：
   * See SDC versions in ReadMe
 * English language in ReadMe and Changelog [luke lucky/Damn Sure]
 
+
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v44002 Update 1 Changelog：
+
+Strict DLP Chinese v44002 Update 1 Changelog:
+
 * Update VeryCD-Default-List-NickName list
 
+
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v44002 Changelog：
+
+Strict DLP Chinese v44002 Changelog:
+
 * The new check to VgroupTeam [doompower]
 * The new check to THC [Bill Lee]
 * The new check to P2PSearcher [dark]
@@ -52,27 +119,38 @@ Strict DLP Chinese v44002 Changelog：
 * Release by Visual Studio 2012
 * Chinese(Traditional) language in ReadMe and Changelog [風之水]
  
+
 -------------------------------------------------------------------------------
+
  
-Strict DLP Chinese v44001 Changelog：
+Strict DLP Chinese v44001 Changelog:
+
 * Base on Official DLP v44
 * The new algorithm in Non-Standard ModString check
 * The development with VeryCD-Default-List-NickName check
 
+
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v43002 Changelog：
+
+Strict DLP Chinese v43002 Changelog:
+
 * Non-Standard ModString check now is on
 * Sort some code out [PERSMULE]
 * Fix a bug in Lite version
 * Move the Changelog to source archive
 
+
 -------------------------------------------------------------------------------
 
-Strict DLP Chinese v43001 Changelog：
+
+Strict DLP Chinese v43001 Changelog:
+
 * Base on Official DLP v43
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v43002 Changelog:
 * The new check to Fake MorphCA [DargonD]
@@ -91,14 +169,18 @@ Strict DLP Chinese v43002 Changelog:
 * Remove the Fake X-Ray check(In Comment)
 * Remove the Official-Fix version and its function was replaced by Lite version
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v42001 Changelog:
 * Base on Official DLP v42
 * The new version Lite is on
 * The development with Israel Community and Fake X-Ray check
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v41002 Changelog:
 * The check of Develop part now is in Stable
@@ -112,7 +194,9 @@ Strict DLP Chinese v41002 Changelog:
 * Move Israel Community check and Fake X-Ray check to Stable(Comment)
 * Fix the introduction of Official-Fix version
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v41001 Changelog:
 
@@ -143,12 +227,16 @@ Develop1 Part
 * Some algorithms in Fake ModString check [反迅雷]
 * Remove some code
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v39005 Changelog:
 * The new check to VeryCD-MiniMule-Mod(HardBan)
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v39004 Changelog:
 
@@ -177,7 +265,9 @@ Develop2 Part
 * The Israel Community check development from Magic Angelyzer Mod [dilxat]
 * The Custom ModString check development from Sivka Mod [angvil]
 
+
 -------------------------------------------------------------------------------
+
 
 Strict DLP Chinese v39003 Changelog:
 * The new version of SDC

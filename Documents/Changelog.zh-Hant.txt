@@ -1,0 +1,299 @@
+﻿Xtreme DLP - 官方版 DLP
+最新版本：44
+更新時間：2011-04-16
+
+Strict DLP Chinese - SDC
+最新版本：44005 Update 1
+更新時間：2017-02-23
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44005 Changelog:
+
+* 添加對 eMule v5.6a 的檢測 [冰靈曦曉]
+* 添加對 eMuleTorrent 的檢測 [冰靈曦曉]
+* 添加 All-VeryCD-Mod&Tag 版本
+* 移除對 Subversion/SVN 的支援
+* 移除對 Windows XP/2003 的支援
+* Release Hash[SHA-3(256)]:
+  * x64
+    * All-VeryCD-Mod: 81531E088F8A9E93E169A745476EABC3499D29358B202825944DD8BD1908BB80
+    * VeryCD-Tag: 7F1BEE6CE715E35F8C09BE5E423DCD2BE5F4CCFA66872D0DEE4D64886BA2DB83
+    * Lite: 293074DBCAA32E5935C759937E30A67B18F47BB0EC354DFF889312D00D0B6687
+    * VeryCD-Default-NickNames: 534AA022EBEC6F7F15F14849BCA163372DFE39451A01A3435F0E83B63AA1300B
+    * VeryCD-EasyMule-Mod: 9DB4C4D3FFDC8BE7E983F567B63F22A8A04FD57A8326E4EE0E800E2723D7D20F
+  * x86
+    * All-VeryCD-Mod: EE70B1F89D2157AA643DA4596498FC1BE77479CEB4EAF4BFFA641AF37714AC36
+    * VeryCD-Tag: 7184621116A65C0490C5E71F48EEE751FD8B6755141B041F5E2557A4FF25C2F6
+    * Lite: 6D2EE98C4FFA2392A93A4B9BFA803B6A49C1E10D38DD5F0064CEC169ACEA8B4D
+    * VeryCD-Default-NickNames: CB4B04C3553A253462FD269CAA52F7DAA33727AD1C2A99AB8A7E8E55F61AEE73
+    * VeryCD-EasyMule-Mod: 8B9B1F3B0B226D033F98B8CEE05283576CA207B8ED635F1DA2E18E4B866E4717
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44004 更新日誌：
+
+* 專案升級到 Visual Studio 2015
+* 修復幾處可能會造成 eMule 對用戶端過濾時意外終止的錯誤
+* 此版開始只對 Windows Vista 之後的系統(x86/x64)提供完全支援：
+  * 二進位檔案在 Windows XP/2003 系統下仍然可被讀取和正常識別
+  * 這些系統下能否正常使用取決於調用 SDC 的 eMule 程式是否支援新的 SDK 二進位模型
+  * 使用舊版 SDK 二進位模型的 eMule 程式調用 SDC 可能會造成 eMule 程式崩潰或誤殺用戶端，如確需使用前請務必進行必要的測試
+* Release Hash[SHA-3(256)]:
+  * x64
+    * All-VeryCD-Mod: F4F406372DC5911AD58E6034F38AEB3CF88A48A9AA37983BF843EFC0422C3627
+    * Lite: 01EBFD4CDD6C044E5EF31DFAEB81CA97EA9D1D6F1182958A39C748173E1BA528
+    * VeryCD-Default-NickNames: 60934924AE4C2777F80DD0811F4F5DB154546D3FB3E1E3E98264CAE63FD1567E
+    * VeryCD-EasyMule-Mod: C22743311A3BE95E9A773013F1CD1A89534AE291EF2DB8902EB16E95CBC75A91
+  * x86
+    * All-VeryCD-Mod: 1DD0598AB04573A34115D2570B00B4E0FD2DE360BB7A7A88770FBEC789171F4B
+    * Lite: D773BC121E179B60742098A705DBAD27557008E8E460DCD55AA8FB1BACA25925
+    * VeryCD-Default-NickNames: 207C107985C7F0FB0BE14C5A4BDA8099C13EF7AD3FDDAE14EAF79BBB1F5376D9
+    * VeryCD-EasyMule-Mod: E600DB929E9A10ACDACDB96D24C7018CCBD5C33C9BACF4E4E84D72C218586EF0
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44003 Update 2 更新日誌：
+
+* 使用 VS 2013 編譯二進制文件
+* 源代碼全部採用 UTF-8 編碼
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44003 Update 1 更新日誌：
+
+* 修復 All-VeryCD-Mod 版本可能造成對迅雷系列服務（移動客戶端/離線下載服務器） 的錯誤減分 [pandaleo]
+* 更改檢測的返回值，添加 [SDC] 標籤
+* 資源文件全部採用 Unicode
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44003 Beta 更新日誌：
+
+* 添加對 eMule -LPE- 的檢測
+* 添加對部分 QQ旋風客戶端 的檢測
+* 添加對 MTVP2P(2013) 的檢測 [雁蝎]
+* 添加對 EggAche 的檢測
+* 添加對 DarkSky 系列的檢測
+* 添加對 迅雷應用（手機客戶端） 的檢測
+* 解除對 ED2000 的檢測
+* 為 Fake ModString 檢測新增3種類型的檢測
+* 優化 Ghost Mod 檢測
+* 重寫 Israel Community -> Fake ModString(Type 1) 檢測 [无敌稻草人]
+* VeryCD-Default-List-NickName -> VeryCD-Default-NickNames
+* 合併各版本的源代碼 [犟驴子]
+* 源代碼全部採用 Dos\Windows 格式的 UCS-2/UTF-16 Little Endian/LE 編碼
+* 64位/x64版本現在只支持Vista及更新版本的Windows系統
+  * 注意此处所说的版本并非指系统运行平台而是指eMule程序的编译目标平台
+  * 現時絕大部分eMule程序的編譯目標平台為32位/x86，而SDC的32位/x86版本支持NT內核及更新版本Windows的系統運行平台
+  * 更詳細的信息參見 ReadMe 文檔中 SDC版本介紹 一節
+* 說明和更新日誌添加 English/英語 語言 [luke lucky/Damn Sure]
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44002 Update 1 更新日誌：
+
+* 添加 VeryCD-Default-List-NickName 名單
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44002 更新日誌：
+
+* 添加對 VgroupTeam 的檢測 [doompower]
+* 添加對 THC 的檢測 [Bill Lee]
+* 添加對 P2PSearcher 的檢測 [dark]
+* 添加對新版 SpeedyP2P 的檢測
+* 啟用 Ghost Mod 檢測
+* 為 Non-Standard ModString 檢測添加一個算法
+* 修復一個官方版本中可能導致錯誤懲罰的UserHash檢測 [Ejack]
+* 修復 VeryCD-Default-List-NickName 檢測可能造成的漏檢
+* 優化對虛假 X-Ray/VeryCD-EasyMule-Mod 的算法防止可能發生的誤傷
+* 優化 Israel Community 檢測的算法
+* 使用 Visual Studio 2012 編譯
+* 說明和更新日誌新增中文（繁體）語言 [風之水]
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v44001 更新日誌：
+
+* 基於官方DLP v44製作
+* 為 Non-Standard ModString 檢測增加一個算法
+* 整理 VeryCD-Default-List-NickName 檢測的程式碼
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v43002 更新日誌：
+
+* 更新並啟用 Non-Standard ModString 檢測
+* 移動部分檢測程式碼修補漏洞與可能BUG [PERSMULE]
+* 移動部分檢測程式碼修復錯誤的檢測(Lite)
+* 將更新日誌從編譯文件(bin)移動到啟動原始碼(src)裡
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v43001 更新日誌：
+
+* 基於官方DLP v43製作
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v42002 更新日誌：
+
+* 添加對 Fake MorphCA 的檢測 [DargonD]
+* 添加對 “0.50a” 的版本號檢測 [DargonD]
+* 添加對 “ED2000.COM” 的暱稱檢測
+* 添加對2個 Bad UserHash 的檢測：
+ * 1個 Community UserHash
+  D0D897BD360EEFF329903E04990B6F86
+ * 1個 Tencent Offline Downloading Server UserHash
+  36725093E00E9350F7680C871E946FD1
+* 啟用 Israel Community 檢測（更新程式碼）
+* 將 Non-Standard ModString 檢測程式碼添加到正式版本中（註釋狀態）
+* 完善對 FlashGet 的檢測
+* 修復官方 Bad Userhash 檢測對QQDownload 的漏檢
+* 改進部分對 VeryCD 用戶端檢測程式碼的準確性 
+* 移除 Fake X-Ray 的檢測程式碼（註釋狀態）
+* 移除一個SDC版本（Official-Fix）其所有功能均已在Lite版本上實現
+* 修改其餘幾處細節與雜項
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v42001 更新日誌：
+
+* 基於官方DLP v42製作
+* 添加一個SDC版本（Lite）
+* 更新 Israel Community/Fake X-Ray 的檢測程式碼
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v41002 更新日誌：
+
+* 將Develop的補充檢測合併到正式版本中
+* 添加對部分Xunlei離線下載服務器的檢測 [angvil]
+* 添加對部分Tencent離線下載服務器的檢測 [angvil]
+* 添加對 MTVP2P 的暱稱檢測
+* 添加對 OS 的檢測 [ieD2k]
+* 添加對部分不表明真實身份的用戶端的檢測 [tetris]
+* 添加對 Unbuyi 的檢測 [一馬]
+* 改進對 EYE888 的檢測
+* 將 Israel Community/Fake X-Ray 檢測程式碼添加到正式版本中（註釋狀態）
+* 修改 Official-Fix 版本的描述信息避免混淆
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v41001 更新日誌：
+
+
+Base 部分：
+* 基於官方DLP v41製作
+* 添加對 eMule-GIFC 的檢測 [DargonD]
+* 添加對 “qobfxb” 的暱稱檢測 [DargonD]
+* 添加對 EYE888/btbbt.com/Greendown.cn 的暱稱檢測 [FzH]
+* 添加對12個 Bad UserHash 的檢測：
+ * 3個 Community UserHash [FzH/DargonD]
+  5E02F74DBA0E8A19DBF6733F0AE66F4A / B6491292AE0E07AC8C6045CAC2DD6F9F / 596B305E050EA842CE38DF3811216F3F
+ * 8個 Invalid UserHash [CHNP2P/DargonD]
+  B1798B2F620E0B676452C6E2EF706F13 / C1533316C00E3E0D0218843A05E46FAC / FE10F3C0610E0A925B85204CE8456F42 /
+  C9E61DEEF30E0360E2741C9CF1396F94 / 559ACC89D80E90C50A7A0CD3224F6F57 / 6AE1D2DF4B0E8707B6F6BC29E8746F0F /
+  8A537F20B80EF9AF02E59E6C087C6F6B / 3F44A7996F0E17D1F4B319EB58B26F64
+ * 2個 Multi UserHash [DargonD]
+  66B002DADE0E6DBEDF4FCCAA380E6FD4 / AAEE84C0C30E247CBB99B459255D6F99
+* 添加對 WebeSo Smule 的檢測 [寂寞驴]
+* 添加對Fake X-Ray Mod 的檢測 [**Riso64Bit**]
+* 移除一個SDC版本（VeryCD-EasyMule2-Mod&VeryCD-MiniMule-Mod）
+* 移除彈射檢測
+* 修改其餘幾處細節與雜項
+
+--------------------
+
+Develop1 部分：
+* 為 Israel Community 檢測添加1個移除誤傷的判斷
+* 為 Non-Standard ModString 檢測添加3個檢測算法[反迅雷/茄头/angvil/**Riso64Bit**]
+* 為 Fake ModString 檢測添加3個檢測算法[反迅雷]
+* 刪除部分重複檢測的程式碼
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v39005 更新日誌：
+
+* 添加對 VeryCD-MiniMule-Mod 的檢測（HardBan[徹底屏蔽]）
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v39004 更新日誌：
+
+
+Base 部分：
+* 添加對Bad UserHash “CB42F563EE0EA7907395420CAC146FF5” 的檢測 [DargonD]
+* 將 VeryCD EasyMule2 Mod 移到HardBan列表中徹底屏蔽
+* 全面支持SSE2指令集
+* 整理源程式碼
+* 重新打包SDC的C++啟動原始碼
+* 修改其餘幾處細節與雜項
+
+--------------------
+
+Develop1 部分：
+* 基於Base版本更新
+* 添加 Israel Community （以色列社區加分吸血用戶端）檢測
+* 添加 Fake X-Ray （偽造 X-Ray Mod）檢測
+* 添加 Custom ModString （自定義版本號）檢測
+* 添加 Fake ModString （偽造版本號）檢測
+* 為 Custom ModString 檢測添加一個移除誤傷的判斷
+* 繼承 SDC 39004 Beta 版本所有的更新[Dolphin/DargonD/茄头/alisa/dilxat]
+* 修改 Custom ModString 檢測的位置配合誤傷判斷
+* 去除對 “QQ旋風” 的臨時彈射機制
+
+Develop2 部分：
+* 為 Israel Community 檢測 / Fake ModString 檢測各添加1個移除誤傷判斷
+* 修復 Custom ModString 檢測中錯誤的移除誤傷判斷 [rifleman/dilxat]
+* 移除 Israel Community 檢測對 Magic Angelyzer Mod 的誤傷 [dilxat]
+* 移除 Custom ModString 檢測對 Sivka Mod 的誤傷 [angvil]
+* 整理源程式碼
+* 修改其餘幾處細節與雜項
+
+
+-------------------------------------------------------------------------------
+
+
+Strict DLP Chinese v39003 更新日誌：
+
+* 添加一個SDC版本
+* 移除一處誤殺隱患
+* 優化程序編譯模式
+* 重寫附帶的說明
+* 重編碼C++源程式碼和附帶的說明文件
+* 採用7z壓縮包格式
+* 修改其餘幾處雜項
