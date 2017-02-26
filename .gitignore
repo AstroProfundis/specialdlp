@@ -21,6 +21,7 @@ Source/Main/antiLeech.sln
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Rr]elease_*/
 x64/
 x86/
 bld/

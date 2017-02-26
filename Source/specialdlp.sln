@@ -11,6 +11,8 @@ Global
 		Debug|x86 = Debug|x86
 		Release_All-VeryCD-Mod|x64 = Release_All-VeryCD-Mod|x64
 		Release_All-VeryCD-Mod|x86 = Release_All-VeryCD-Mod|x86
+		Release_ATR|x64 = Release_ATR|x64
+		Release_ATR|x86 = Release_ATR|x86
 		Release_Lite|x64 = Release_Lite|x64
 		Release_Lite|x86 = Release_Lite|x86
 		Release_VeryCD_Tag|x64 = Release_VeryCD_Tag|x64
@@ -31,6 +33,10 @@ Global
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_All-VeryCD-Mod|x64.Build.0 = Release_All-VeryCD-Mod|x64
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_All-VeryCD-Mod|x86.ActiveCfg = Release_All-VeryCD-Mod|Win32
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_All-VeryCD-Mod|x86.Build.0 = Release_All-VeryCD-Mod|Win32
+		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_ATR|x64.ActiveCfg = Release_ATR|x64
+		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_ATR|x64.Build.0 = Release_ATR|x64
+		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_ATR|x86.ActiveCfg = Release_ATR|Win32
+		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_ATR|x86.Build.0 = Release_ATR|Win32
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_Lite|x64.ActiveCfg = Release_Lite|x64
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_Lite|x64.Build.0 = Release_Lite|x64
 		{3A9EE43B-4961-4F30-A565-A48EB043B6C4}.Release_Lite|x86.ActiveCfg = Release_Lite|Win32
